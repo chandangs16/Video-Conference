@@ -4,6 +4,7 @@ side which sends media to all the other peers. One of the ways to overcome the b
 for routing media to clients connected to a session. To make the application scalable to meet the requirements of increasing
 number of clients, the application is deployed as a cluster of media servers which distributes the load equally among them and cater to the
 clients. The media servers are deployed in cloud and clustered using a haproxy load balancing server.
+Server instances were created on <a href= "https://www.thothlab.com/" >ThothLab</a> Servers.
 
 ## Implementation
  The following classes are used for implementing the application
@@ -20,5 +21,6 @@ It is a MAVEN project and runs on TOMCAT 7 or above. Needs jdk 7 and jre to run 
 
 ## API Reference
 
-https://webrtc.org/native-code/native-apis/ <br>
-http://doc-kurento.readthedocs.io/en/stable/mastering/kurento_API.html
+http://doc-kurento.readthedocs.io/en/stable/mastering/kurento_API.html <br>
+https://webrtc.org/native-code/native-apis/ 
+
